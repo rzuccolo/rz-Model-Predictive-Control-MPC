@@ -2,6 +2,9 @@
 # Model Predictive Control (MPC) Project
 Using Model Predictive Control (MPC), this project implements a C++ program that can drive a simulated car around a virtual track using specific waypoints from the track itself. The car's actuators have a 100ms latency (delay) that must be accounted for, as well as part of the MPC calculation.
 
+## Results
+[Model Predictive Control (MPC)](https://vimeo.com/241336392).
+
 ## The Model
 The kinematic model includes the vehicle's x and y coordinates, orientation angle (psi), and velocity, as well as the cross-track error and psi error (epsi). Actuator outputs are acceleration and delta (steering angle). The model combines the state and actuations from the previous timestep to calculate the state for the current timestep.
 Project Steps:
